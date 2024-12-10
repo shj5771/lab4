@@ -64,6 +64,7 @@ int main(int argc, char *argv[]) {
     gtk_window_set_title(GTK_WINDOW(window), "Calculator");
     gtk_window_set_default_size(GTK_WINDOW(window), 300, 300);
 
+
     // 그리드 레이아웃 생성
     grid = gtk_grid_new();
     gtk_container_add(GTK_CONTAINER(window), grid);
